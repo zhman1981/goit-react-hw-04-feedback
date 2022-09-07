@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Statistics(props) {
-  const { good, neutral, bad } = props;
+function Statistics({ good, neutral, bad }) {
   return (
     <>
       <p>Good: {good}</p>
